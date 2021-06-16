@@ -29,3 +29,19 @@ console.log(age);
 
 const birthYear= 1970;
 console.log(birthYear)
+
+const now = 2021
+const ageChristian = now - 1970;
+const ageAbby = now - 2001;
+console.log(ageChristian - ageAbby);
+
+let x = 10 +5 //15
+x += 10;
+x *= 4;
+x ++;
+x --;
+console.log(x);
+
+console.log(ageChristian > ageAbby);
+
+console.log(now - 1991 > now -2020)
