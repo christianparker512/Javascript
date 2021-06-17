@@ -44,4 +44,12 @@ console.log(x);
 
 console.log(ageChristian > ageAbby);
 
-console.log(now - 1991 > now -2020)
+console.log(now - 1991 > now -2020);
+
+console.log(25 - 10 - 5);
+
+x = y = 25 - 10 - 5;
+console.log(x, y);
+const averageAge = (ageChristian + ageAbby) /2
+console.log(ageChristian, ageAbby)
+console.log(averageAge);
