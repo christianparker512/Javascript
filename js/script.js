@@ -53,3 +53,19 @@ console.log(x, y);
 const averageAge = (ageChristian + ageAbby) /2
 console.log(ageChristian, ageAbby)
 console.log(averageAge);
+
+const myName = 'Christian';
+const job = 'Software Developer';
+const yearBorn = '1970';
+let currentYear = '2021';
+
+const christian = "I'm " + myName + ". I'm " + (currentYear - yearBorn) + " years old. I'm " + "a " + job + "."
+const christianNew = `I'm ${myName}, a ${currentYear - yearBorn} year old ${job}`;
+
+console.log(christian);
+console.log(christianNew);
+console.log('String with \n try');
+
+console.log('string number 2 with \n\
+multiple \n\
+lines');
