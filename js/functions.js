@@ -12,3 +12,4 @@ function fruit(apples, oranges){
 }
 const appleJuice = fruit(12,5);
 console.log(appleJuice);
+console.log(fruit(12,0))
