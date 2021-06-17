@@ -128,3 +128,20 @@ if (favorite == 37){
 }else {
     console.log(`Kool. My favorite number is ${favorite}, too.`);
 }
+
+
+let ageLisa = 16;
+if(ageLisa >= 20){
+  console.log("You're old enough")
+}
+
+const scoreVanderbilt = (14, 12, 5)/3
+const scoreTexas = (10, 11, 8)/3
+
+if (scoreVanderbilt > scoreTexas) {
+  console.log('Vanderbilt wins the championship');
+} else if (scoreTexas > scoreVanderbilt){
+  console.log('The Longhorns win the championship');
+} else if (scoreVanderbilt === scoreTexas) {
+  console.log("Orange slices for everyone. It's a tie!")
+}
