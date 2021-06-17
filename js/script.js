@@ -79,6 +79,7 @@ if (isOldEnough) {
   console.log(`She's too young. Wait another ${yearsLeft} years`)
 }
 
+//if else statements
 const birthYr = 2001;
 let century;
 if (birthYr <= 2000){
@@ -87,3 +88,27 @@ if (birthYr <= 2000){
   century = 21;
 }
 console.log(century);
+
+//type conversion and coercion
+const inputYear = '1991';
+console.log(Number(inputYear )+ 18);
+console.log(inputYear + 18);
+// not a number
+console.log(Number('Christian'));
+
+// falsey levels
+// 0, '', undefined, null, NaN
+
+const money = 0;
+if(money){
+  console.log("Don't spend it all");
+} else {
+  console.log("you should get a job");
+}
+
+let height = 0;
+if (height){
+  console.log("yay! height is defined");
+} else {
+  console.log("height is undefined!")
+}
