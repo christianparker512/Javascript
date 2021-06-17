@@ -112,3 +112,19 @@ if (height){
 } else {
   console.log("height is undefined!")
 }
+
+const me = 50;
+if(me === 50) console.log("you are middle aged!");
+
+
+const favorite = prompt("What's your favorite number?")
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite == 37){
+  console.log(`Cool. My favorite number is ${favorite} too`);
+} else if(favorite == 34) {
+  console.log(`${favorite} is a cool number, too`)
+}else {
+    console.log(`Kool. My favorite number is ${favorite}, too.`);
+}
