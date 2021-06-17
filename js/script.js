@@ -69,3 +69,12 @@ console.log('String with \n try');
 console.log('string number 2 with \n\
 multiple \n\
 lines');
+
+const isOldEnough = ageAbby >=21;
+
+if (isOldEnough) {
+  console.log("She's old enough");
+} else {
+  const yearsLeft = (21-ageAbby);
+  console.log(`She's too young. Wait another ${yearsLeft} years`)
+}
