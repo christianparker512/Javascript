@@ -15,3 +15,8 @@ const calcAge2 = function(birthYear){
 }
 const age2 = calcAge2(1970);
 console.log(age1, age2);
+
+//can hoist a function declaration but can't hoist a function expression
+//hoist is when you say the function first and then call it afterwards
+
+
