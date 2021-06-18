@@ -15,3 +15,5 @@ console.log(christian.lastName)
 
 const interestedIn = prompt("What do you want to know about Christian? Choose between firstName, lastName, age, job, and family?");
 console.log(christian[interestedIn]);
+
+console.log(`${christian.firstName} has ${christian.family.length} family members. His wife is named ${christian.family[0]}`);
