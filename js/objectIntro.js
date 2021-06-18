@@ -12,3 +12,6 @@ const christian = {
 }
 console.log(christian);
 console.log(christian.lastName)
+
+const interestedIn = prompt("What do you want to know about Christian? Choose between firstName, lastName, age, job, and family?");
+console.log(christian[interestedIn]);
