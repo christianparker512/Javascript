@@ -29,5 +29,23 @@ const age3 = calcAge(years[2]);
 
 console.log(age1, age2, age3);
 
+//add to the end
 parker.push('Quincy');
 console.log(parker);
+
+parker.unshift('Baxter');
+console.log(parker)
+
+// remove elements
+parker.pop('');
+console.log(parker);
+parker.pop('');
+console.log(parker);
+
+parker.shift();
+
+console.log(parker.includes('lisa jo'));
+
+if(parker.includes('lisa jo')){
+  console.log('Lisa is a parker');
+}
