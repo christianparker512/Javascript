@@ -17,7 +17,7 @@ const christianArray = [
   'software developer',
   ['lisa', 'abby','quincy','baxter'],
   true
-]
+];
 for (let i = 0; i < christianArray.length; i ++){
   console.log(christianArray[i]);
 }
