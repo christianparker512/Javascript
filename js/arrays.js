@@ -28,3 +28,6 @@ const age2 = calcAge(years[1]);
 const age3 = calcAge(years[2]);
 
 console.log(age1, age2, age3);
+
+parker.push('Quincy');
+console.log(parker);
