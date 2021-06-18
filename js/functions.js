@@ -16,3 +16,7 @@ console.log(fruit(12,0))
 
 const appleOrangeJuice = fruit(5,5);
 console.log(appleOrangeJuice);
+
+
+const num =(Number('37'));
+console.log(num);
