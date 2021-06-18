@@ -18,3 +18,13 @@ console.log(parker[parker.length -1]);
 //mutating the array
 parker[1] ="lisa jo"
 console.log(parker);
+
+const calcAge = function (birthYear){
+  return 2021 - birthYear;
+}
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[2]);
+
+console.log(age1, age2, age3);
