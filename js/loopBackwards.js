@@ -19,4 +19,9 @@ for (let exercise = 1; exercise <4; exercise++) {
   for (let rep = 1; rep < 6; rep++) {
     console.log(`lifting weight repetition ${rep}`)
   }
+  let rep =1;
+  while (rep <=10){
+    console.log(`lifting heavy weights repetition ${rep}`);
+    rep++;
+  }
 }
